@@ -35,8 +35,8 @@ async def start(bot, update):
        await update.reply_text("Hi i am **Utkarsh Downloader**.\n\n"
                               "**NOW:-** "
                                        
-                                       "Press **/login** to continue..\n\n"
-                                     "Bot made by **ACE**" )
+                                       "Press **/mendax** to continue..\n\n"
+                                     "Bot made by **𝐌𝐞𝐧𝐝𝐚𝐱™❤️**" )
 
 
 
@@ -49,7 +49,7 @@ data = {"username":"","password":"","siteId":"1"}
 cleanr = re.compile("<.*?>")
 os.makedirs("./htmls", exist_ok=True)
 
-@bot.on_message(filters.command(["login"])& ~filters.edited)
+@bot.on_message(filters.command(["mendax"])& ~filters.edited)
 async def account_login(bot: Client, m: Message):
     editable = await m.reply_text("Send **ID & Password** in this manner otherwise bot will not respond.\n\nSend like this:-  **ID*Password**"
     )
