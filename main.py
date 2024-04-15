@@ -35,8 +35,8 @@ async def start(bot, update):
        await update.reply_text("Hi i am **Careerwill Downloader**.\n\n"
                               "**NOW:-** "
                                        
-                                       "Press **/login** to continue..\n\n"
-                                     "Bot made by **UnityBro**" )
+                                       "Press **/mendax** to continue..\n\n"
+                                     "Bot made by **𝐌𝐞𝐧𝐝𝐚𝐱™❤️**" )
 
 ACCOUNT_ID = "6206459123001"
 BCOV_POLICY = "BCpkADawqM1474MvKwYlMRZNBPoqkJY-UWm7zE1U769d5r5kqTjG0v8L-THXuVZtdIQJpfMPB37L_VJQxTKeNeLO2Eac_yMywEgyV9GjFDQ2LTiT4FEiHhKAUvdbx9ku6fGnQKSMB8J5uIDd"
@@ -55,7 +55,7 @@ info= {
     "email":"",
 }
 
-@bot.on_message(filters.command(["login"]))
+@bot.on_message(filters.command(["mendax"]))
 async def account_login(bot: Client, m: Message):
     editable = await m.reply_text(
         "Send **ID & Password** in this manner otherwise bot will not respond.\n\nSend like this:-  **ID*Password**"
@@ -331,7 +331,7 @@ async def account_login(bot: Client, m: Message):
             #await m.reply_text("Done")
     except Exception as e:
         print(str(e))
-    await m.reply_text("Done")
+    await m.reply_text("✅Done Mendax Bro😂")
     
                     
                 
