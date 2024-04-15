@@ -70,7 +70,7 @@ async def account_login(bot: Client, m: Message):
     login_response=requests.post(url+"login-other",info)
     token=login_response.json( )["data"]["token"]
     await editable.edit("**login Successful**")
-    #await editable.edit(f"You have these Batches :-\n{raw_text}")
+    #await editable.edit(f'{"**You have these Batches :-\n{raw_text}")
     
     url1 = requests.get("https://elearn.crwilladmin.com/api/v1/comp/my-batch?&token="+token)
     b_data = url1.json()['data']['batchData']
